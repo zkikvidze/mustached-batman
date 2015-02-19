@@ -19,7 +19,7 @@ pip install facebook-sdk re urllib2 urlparse
 
 #ENG:
 
-fb-phisher-finder.py - this python script uses Facebook Graph API to crawl all facebook groups member of which is user. It searches resent posts in this group and tries to find URLs to external domains. After this it searches some patterns which may be sign of facebook login page phisher. Currently, regex in this script detects Georgian version of phisher pages but you can modify it to detect other pages.
+fb-phisher-finder.py - this python script uses Facebook Graph API to crawl all facebook groups member of which user is. It searches resent posts in this group and tries to find URLs to external domains. After this it searches some patterns which may be sign of facebook login page phisher. Currently, regex in this script detects Georgian version of phisher pages but you can modify it to detect other pages.
 
 You need ACCESS_TOKEN from facebook.com which can be obtained from here:
 https://developers.facebook.com/tools/explorer/
