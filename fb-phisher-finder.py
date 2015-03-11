@@ -10,7 +10,7 @@ blacklists = ['facebook.com', 'www.facebook.com']
 regex1='(Facebook-ში შესვლა|დამტოვეთ ხაზზე|ელ. ფოსტა ან მობილური:|<meta name="description" content="Facebook არის სოციალური სარგებლიანობა|<script src="https://fbstatic-a.akamaihd.net/rsrc.php)'
 
 #graph api and token
-graph = graph = facebook.GraphAPI(access_token="PUT_TOKEN_HERE")
+graph = facebook.GraphAPI(access_token="PUT_TOKEN_HERE")
 
 #calling all groups
 groups = graph.get_object("me/groups")
